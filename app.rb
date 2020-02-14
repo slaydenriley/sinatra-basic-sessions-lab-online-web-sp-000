@@ -14,5 +14,5 @@ class App < Sinatra::Base
   post '/checkout' do
     params << :sessions
   end
-  
+
 end
